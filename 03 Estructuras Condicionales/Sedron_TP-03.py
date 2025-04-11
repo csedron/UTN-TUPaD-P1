@@ -36,11 +36,7 @@ elif verificoEdad >= 12 and verificoEdad < 18:
 elif verificoEdad >= 18 and verificoEdad < 30:
     print("adulto joven")
 else:
-<<<<<<< HEAD
-    print("adulto mayor")
-=======
     print("adulto")
->>>>>>> 48563b30f133469b10d0a43cc1522cf74554e542
     
 # 5) Escribir un programa que permita introducir contraseñas de entre 8 y 14 caracteres 
 # (incluyendo 8 y 14). Si el usuario ingresa una contraseña de longitud adecuada, 
@@ -56,11 +52,6 @@ else:
     print("Por favor, ingrese una contraseña de entre 8 y 14 caracteres")
 
 # Ejercicio 6
-<<<<<<< HEAD
-from statistics import mode, median, mean
-mi_lista = [1,2,5,5,3]
-mean(mi_lista)
-=======
 import random 
 from statistics import mode, median, mean 
 numeros_aleatorios = [random.randint(1, 100) for i in range(50)] 
@@ -138,4 +129,3 @@ elif hemisferio in "sS":
         print("Ud. se encuentra en Primavera")
 else:
     print("opcion ingresada incorrecta")
->>>>>>> 48563b30f133469b10d0a43cc1522cf74554e542
